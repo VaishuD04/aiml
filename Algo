@@ -1,0 +1,187 @@
+1. Fibonacci Series Algorithm
+Aim: Generate Fibonacci numbers up to n terms.
+
+Algorithm:
+
+Input n (number of terms).
+
+If n < 0, print error and return empty list.
+
+If n == 0, return [0].
+
+If n == 1, return [0, 1].
+
+Else:
+
+Initialize series as [0, 1].
+
+Set a = 0, b = 1.
+
+Repeat for i = 2 to n:
+
+Compute c = a + b.
+
+Append c to series.
+
+Update a = b, b = c.
+
+Return the series.
+
+2. Depth First Search (DFS) Algorithm
+Aim: Traverse a graph using DFS.
+
+Algorithm:
+
+Initialize an empty set visited.
+
+Define DFS function:
+
+If node not in visited:
+
+Print node.
+
+Add node to visited.
+
+For each neighbor of node in graph:
+
+Recursively call DFS.
+
+Call DFS with starting node.
+
+3. Breadth First Search (BFS) Algorithm
+Aim: Traverse a graph using BFS.
+
+Algorithm:
+
+Initialize an empty set visited and a queue.
+
+Add starting node to queue and visited set.
+
+While queue is not empty:
+
+Remove node from front of queue.
+
+Print node.
+
+For each neighbor of the node:
+
+If not visited:
+
+Add to visited and enqueue it.
+
+4. Central Tendency and Dispersion
+Aim: Compute mean, median, mode, variance, and standard deviation.
+
+Algorithm:
+
+Define a list of numbers.
+
+Use statistics module:
+
+Compute mean, median, and mode.
+
+Compute variance and standard deviation.
+
+Print all values.
+
+5. Matrix Transpose and Factorial
+Algorithm (Transpose):
+
+Create a 2x2 matrix using numpy.
+
+Use .T to transpose.
+
+Print both matrices.
+
+Algorithm (Factorial):
+
+Import math.
+
+Input a number n.
+
+Use math.factorial(n) to compute.
+
+Print result.
+
+6. T-Test Algorithm
+Aim: Compare means of two groups using t-test.
+
+Algorithm:
+
+Import scipy.stats.
+
+Define two datasets.
+
+Use ttest_ind(data1, data2) to compute:
+
+t-statistic
+
+p-value
+
+Print the results.
+
+7. Pandas DataFrame and Bar Chart
+Algorithm:
+
+Create dictionary with keys: Name, Age, City.
+
+Create DataFrame from dictionary.
+
+Add a new column Salary.
+
+Drop City column using drop().
+
+Use matplotlib.pyplot to:
+
+Plot bar chart of Name vs Salary.
+
+8. Linear Regression (Salary Prediction)
+Algorithm:
+
+Import required libraries (pandas, sklearn, matplotlib).
+
+Load CSV dataset.
+
+Display head, info, describe.
+
+Split dataset:
+
+X = YearsExperience
+
+y = Salary
+
+Split into train/test sets (80/20).
+
+Fit LinearRegression model.
+
+Predict on test data.
+
+Print slope and intercept.
+
+Compare actual vs predicted.
+
+Evaluate using MSE and R².
+
+Plot scatter of test vs predicted.
+
+9. Logic Gates using Perceptron (AND, NAND, OR, NOR)
+Algorithm (Common for all gates):
+
+Define weights and bias based on gate logic.
+
+Input values x1 and x2.
+
+Calculate weighted_sum = (x1*w1 + x2*w2 + bias).
+
+If weighted_sum >= 0, output 1 else 0.
+
+Test for all input combinations: (0,0), (0,1), (1,0), (1,1).
+
+Would you like all algorithms in PDF or DOC format for easy printing or downloading?
+
+
+
+
+
+
+
